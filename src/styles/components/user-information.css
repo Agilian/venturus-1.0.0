@@ -1,0 +1,17 @@
+.app-user-information{
+  color: aliceblue;
+  display: inline;
+  float: right;
+}
+
+.app-user-information-texto{
+  font-size: 20px;
+  padding: 10px;
+}
+
+.app-user-information-iniciais{
+  color: dimgrey;
+  background-color: aliceblue;
+  border-radius: 30px;
+  padding: 10px;
+}

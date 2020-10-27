@@ -1,0 +1,14 @@
+.titleComponent{
+  background-color: white;
+  color: #6b40a3;
+  font-size: 25px;
+  font-weight: bold;
+  display: flex;
+  float: left;
+  width: 40vw;
+  height: 50px;
+  margin: 50px;
+  border-bottom-style: inset;
+  border-bottom-width: medium;
+  border-bottom-color: #f7f3f7
+}

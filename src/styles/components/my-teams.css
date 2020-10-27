@@ -1,0 +1,150 @@
+.my-teams{
+  background-color: white;
+  color: blueviolet;
+  border-radius: 20px;
+  display: flex;
+  float: left;
+  width: 40vw;
+  height: 80vh;
+  margin: 50px;
+}
+
+.create-team-plus{
+  background: linear-gradient(180.54deg, #b73d7b 0%, #6b3087 100%);
+  padding: 10px;
+  border-radius: 15px;
+  width: 90px;
+  height: 60px;
+  font-size: 30px;
+  align-items: center;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  margin: 30px;
+}
+
+.titles{
+  background-color: white;
+  color: blueviolet;
+  border-radius: 20px;
+  display: flex;
+  float: left;
+  width: 90%;
+  height: 50px;
+  
+}
+.my-teams-list{
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 50px;
+}
+
+.displayBlock{
+  display: none;
+}
+
+
+@media screen and (max-width: 1350px) {
+  .my-teams{
+    background-color: white;
+    color: rgb(101, 226, 43);
+    border-radius: 20px;
+    display: flex;
+    float: left;
+    width: 35vw;
+    height: 80vh;
+    margin: 50px;
+  }
+  
+  .create-team-plus{
+    background: linear-gradient(180.54deg, #b73d7b 0%, #6b3087 100%);
+    padding: 10px;
+    border-radius: 15px;
+    width: 150px;
+    height: 60px;
+    font-size: 30px;
+    align-items: center;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    margin: 30px;
+  }
+  
+  .titles{
+    background-color: white;
+    color: blueviolet;
+    border-radius: 20px;
+    display: flex;
+    float: left;
+    width: 90%;
+    height: 50px;
+    
+  }
+  .my-teams-list{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 50px;
+  }
+  
+  .displayBlock{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .top5{
+    background-color: white;
+    color: rgb(101, 226, 43);
+    border-radius: 20px;
+    display: flex;
+    float: left;
+    width: 70vw;
+    height: 80vh;
+    margin: 50px;
+  }
+  .my-teams{
+    background-color: white;
+    color: rgb(101, 226, 43);
+    border-radius: 20px;
+    display: flex;
+    float: left;
+    width: 70vw;
+    height: 60vh;
+    margin: 50px;
+  }
+  
+  .create-team-plus{
+    background: linear-gradient(180.54deg, #b73d7b 0%, #6b3087 100%);
+    padding: 10px;
+    border-radius: 15px;
+    width: 70px;
+    height: 60px;
+    font-size: 30px;
+    align-items: center;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    margin: 30px;
+  }
+  
+  .titles{
+    background-color: white;
+    color: blueviolet;
+    border-radius: 20px;
+    display: flex;
+    float: left;
+    width: 90%;
+    height: 50px;
+    font-size: small;
+    
+  }
+  .my-teams-list{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 50px;
+  }
+  
+  .displayBlock{
+    display: none;
+  }
+}

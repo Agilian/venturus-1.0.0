@@ -1,0 +1,27 @@
+.ElementListComponentTop5Lowest{
+  width: 100%;
+  color: #666;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  margin: 3px;
+}
+
+
+.ElementListComponentTop5Lowest-name{
+  width: 140px;
+  position: absolute;
+}
+
+.ElementListComponentTop5Lowest-description{
+  width: 4%;
+  padding-left: 70%;
+  
+}
+
+@media screen and (max-width: 1350px) {
+  .ElementListComponentTop5Lowest-description{
+    width: 4%;
+    padding-left: 70%;
+  }
+}

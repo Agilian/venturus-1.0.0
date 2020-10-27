@@ -1,0 +1,52 @@
+/*
+import React, {Component, useReducer, useEffect} from "react";
+import { useHistory } from "react-router-dom";
+import { Link } from "react-router-dom";
+import { useStorageState } from 'react-storage-hooks';
+import "../styles/components/my-teams.css";
+import ElementListComponent from "./ElementListComponent";
+import Title from "./Title";
+
+
+interface IMyProps {
+  location: any,
+}
+
+const MyTeams: React.FC<IMyProps> = (props: IMyProps) => {
+  const { goBack } = useHistory();
+
+  const LoadAllTeamsAndAddNew = (props :any) => {
+    const [books, dispatch] = useReducer(bookReducer, [], () =>{
+      const localData = localStorage.getItem('books');
+      return localData ? JSON.parse(localData) : []
+    });
+    useEffect(()=>{
+      localStorage.setItem('books', JSON.stringfy(books))
+    },[books]);
+    return(
+      <LoadAllTeamsAndAddNew.Provider value={{books, dispatch}}>
+        {props.children}
+        </LoadAllTeamsAndAddNew.Provider>
+    )
+
+  }
+
+
+
+  return (
+    <div className="my-teams">
+      <div className="titles">
+        <Title myTitle="My Teams" />
+        <Link to="/teams/create" className="create-team-plus">
+          +
+        </Link>
+      </div>
+      <div className="my-teams-list">
+        <LoadAllTeamsAndAddNew location={props.location} />
+      </div>
+    </div>
+  );
+};
+
+export default MyTeams;
+*/

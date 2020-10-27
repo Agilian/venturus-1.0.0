@@ -1,0 +1,122 @@
+.top5{
+  background-color: white;
+  color: blueviolet;
+  border-radius: 20px;
+  display: flex;
+  float: left;
+  width: 48vw;
+  height: 40vh;
+  margin: 20px;
+  margin-top: 50px;
+}
+
+.my-top5-teams-list{
+  position: absolute;
+  width: 20%;
+  margin-top: 120px;
+  margin-left: 50px;
+  background-color: #dcdcdc;
+  padding: 5px;
+  border-radius: 10px;
+  padding-left: 1px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+.my-top5-teams-list-lowest{
+  position: absolute;
+  width: 20%;
+  margin-top: 120px;
+  background-color: #dcdcdc;
+  margin-left: 24%;
+  padding: 5px;
+  border-radius: 10px;
+  padding-left: 1px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+
+
+@media screen and (max-width: 1350px) {
+  .top5{
+    background-color: white;
+    color: blueviolet;
+    border-radius: 20px;
+    display: flex;
+    float: left;
+    width: 48vw;
+    height: 40vh;
+    margin: 20px;
+    margin-top: 50px;
+  }
+  
+  .my-top5-teams-list{
+    position: absolute;
+    width: 18%;
+    margin-top: 120px;
+    margin-left: 50px;
+    background-color: #dcdcdc;
+    padding: 5px;
+    border-radius: 10px;
+    padding-left: 1px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+  }
+  
+  .my-top5-teams-list-lowest{
+    position: absolute;
+    width: 18%;
+    margin-top: 120px;
+    margin-left: 50px;
+    background-color: #dcdcdc;
+    margin-left: 24%;
+    padding: 5px;
+    border-radius: 10px;
+    padding-left: 1px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+  }
+}
+
+
+@media screen and (max-width: 930px) {
+  .top5{
+    background-color: white;
+    color: blueviolet;
+    border-radius: 20px;
+    display: flex;
+    float: left;
+    width: 70vw;
+    height: 40vh;
+    margin: 20px;
+    margin-top: 50px;
+  }
+  
+  .my-top5-teams-list{
+    font-size: small;
+    position: absolute;
+    width: 30%;
+    margin-top: 120px;
+    background-color: #dcdcdc;
+    padding: 5px;
+    border-radius: 10px;
+    padding-left: 1px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+  }
+  
+  .my-top5-teams-list-lowest{
+    font-size: small;
+    position: absolute;
+    width: 30%;
+    margin-top: 120px;
+    background-color: #dcdcdc;
+    margin-left: 40%;
+    padding: 5px;
+    border-radius: 10px;
+    padding-left: 1px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+  }
+}
