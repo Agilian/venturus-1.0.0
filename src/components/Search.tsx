@@ -1,10 +1,8 @@
 import React, { useEffect, useState } from "react";
-
 import "../styles/components/create-your-team.css";
 import SearchResults from "./SearchResults";
 
 const Search: React.FC = () => {
-  
 async function getFromAPI(j: any){
   console.log("oi");
   console.log(j);
@@ -17,6 +15,7 @@ async function getFromAPI(j: any){
     })
 
     const data = await response1.json();
+    console.log(data);
     const dataAPI = data.api;
     const results = dataAPI.results;
     const players = dataAPI.players;
@@ -25,7 +24,12 @@ async function getFromAPI(j: any){
       var object = players[i];
       for (var propi in object) {
         if( propi == "age" || propi == "player_name" || propi == "nationality"){
-          arraySearch.push(object[propi].toString());
+          //na base de dados existem jogadores cadastrados com idade null ou nacionalidade =null, para corrigir por enquanto, farei isso:
+          if(object[propi] == null){
+            arraySearch.push('');
+          }else{
+            arraySearch.push(object[propi].toString()); 
+          }
         }
       }
     }

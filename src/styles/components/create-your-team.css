@@ -32,7 +32,7 @@
 
 .grid-container {
   display: inline-grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 50% 50%;
   padding: 10px;
   width: inherit;
 }
@@ -47,7 +47,7 @@
 
 .grid-container2 {
   display: inline-grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 50% 50%;
   padding: 10px;
   width: inherit;
 }
@@ -102,4 +102,13 @@
   border: none;
   font-size: small;
   pointer-events: none;
+}
+
+#sitewww{
+  width: 20%;
+  border-right-style: none;
+}
+#site{
+  width: 80%;
+  border-left-style: none;
 }

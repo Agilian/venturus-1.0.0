@@ -62,3 +62,13 @@ Drad and drop
 ligar um banco de dados
 sistema de login completo
 escrever testes
+
+/////
+
+
+
+voltando a programar aqui:
+refiz a base do componente CreateYourTeam para usar formik
+
+instalando reactDND para drag and drop
+
